@@ -1,0 +1,189 @@
+/* Styled by Tag selector */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+footer {
+    background-color: rgba(8, 1, 39, 0.863);
+    height: 100%;
+    margin-top: 50px;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+/* Styled by Class selector */
+
+.header {
+    /* background-color: salmon */
+}
+
+.nav-list {
+    text-align: right;
+    margin-right: 15%;
+}
+
+.nav-item {
+    display: inline;
+}
+
+.nav-item a {
+    color: black;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.flex-content {
+    display: flex;
+}
+
+.half-part {
+    max-width: 50%;
+    padding-left: 75px;
+    padding-right: 50px;
+    margin: auto;
+}
+
+.color {
+    color: coral;
+    font-size: 42px;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(salmon, lightsalmon);
+    border-radius: 10px;
+    color: blanchedalmond;
+    font-weight: 600;
+}
+
+.aboutUs-part {
+    background-image: url("images/bg-01.png");
+}
+
+.my-recipe {
+    background-image: url("images/bg-02.png");
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+    margin-bottom: 5%;
+}
+
+.card {
+    /* box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2); */
+    box-shadow: 10px 10px 15px gray;
+    margin: 5px 5% 15px 5%;
+    text-align: center;
+    border-radius: 20px;
+    width: 25%;
+    padding: 0 15px 0 15px;
+    display: inline-block;
+}
+
+.card img {
+    border: 1px solid rgba(211, 209, 209, 0.795);
+    border-radius: 20px;
+    width: 270px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.card-content {
+    text-align: center;
+    padding: 2px 16px;
+}
+
+.branches {
+    background-image: url("images/bg-03.png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: bottom;
+    margin-bottom: 35px;
+}
+
+.branch-card {
+    background-color: transparent;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid #ffffffa2;
+    width: 24%;
+    box-shadow: 10px 10px 15px gray;
+    /* margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%; */
+    margin: 5% 4% 0 4%;
+    padding: 10px;
+}
+
+.branch-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.branch-card:hover .branch-card-inner {
+    transform: rotateY(180deg);
+}
+
+.branch-card-front,
+.branch-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.branch-card-front {
+    /* background-color: #bbb; */
+    color: black;
+}
+
+.branch-card-back {
+    background-color: rgba(255, 255, 255, 0.096);
+    /* color: white; */
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    /* padding: 10px; */
+    /* padding-left: 2px;
+    padding-right: 3px; */
+}
+
+.contact {
+    padding-bottom: 70px;
+}
+
+.contact-content {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.contact-title {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+.contact-email {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.contact-link {
+    display: inline-block;
+    margin: 0 8px;
+}
