@@ -1,27 +1,11 @@
-/* Styled by Tag selector */
+/* Universal style */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Otomanopee One', sans-serif;
 }
 
-footer {
-    background-color: rgba(8, 1, 39, 0.863);
-    height: 100%;
-    margin-top: 50px;
-}
-
-footer p {
-    text-align: center;
-}
-
-
-/* Styled by Class selector */
-
-.header {
-    /* background-color: salmon */
-}
-
+/* Navbar */
 .nav-list {
     text-align: right;
     margin-right: 15%;
@@ -39,6 +23,7 @@ footer p {
     text-decoration: none;
 }
 
+/* Main Part */
 .flex-content {
     display: flex;
 }
@@ -68,6 +53,7 @@ footer p {
     background-image: url("images/bg-01.png");
 }
 
+/* Recipe Part */
 .my-recipe {
     background-image: url("images/bg-02.png");
     background-size: 70px;
@@ -78,7 +64,6 @@ footer p {
 }
 
 .card {
-    /* box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2); */
     box-shadow: 10px 10px 15px gray;
     margin: 5px 5% 15px 5%;
     text-align: center;
@@ -101,6 +86,7 @@ footer p {
     padding: 2px 16px;
 }
 
+/* Our Branches */
 .branches {
     background-image: url("images/bg-03.png");
     background-size: 80px;
@@ -118,9 +104,6 @@ footer p {
     border: 1px solid #ffffffa2;
     width: 24%;
     box-shadow: 10px 10px 15px gray;
-    /* margin-top: 5%;
-    margin-left: 4%;
-    margin-right: 4%; */
     margin: 5% 4% 0 4%;
     padding: 10px;
 }
@@ -147,18 +130,24 @@ footer p {
 }
 
 .branch-card-front {
-    /* background-color: #bbb; */
     color: black;
 }
 
 .branch-card-back {
     background-color: rgba(255, 255, 255, 0.096);
-    /* color: white; */
     transform: rotateY(180deg);
     border-radius: 10px;
-    /* padding: 10px; */
-    /* padding-left: 2px;
-    padding-right: 3px; */
+}
+
+/* Footer */
+footer {
+    background-color: rgba(8, 1, 39, 0.863);
+    height: 100%;
+    margin-top: 50px;
+}
+
+footer p {
+    text-align: center
 }
 
 .contact {
