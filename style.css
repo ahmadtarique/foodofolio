@@ -58,7 +58,7 @@ footer p {
 .link-button {
     text-decoration: none;
     padding: 10px 40px;
-    background-image: linear-gradient(salmon, lightsalmon);
+    background-image: linear-gradient(lightsalmon, salmon, tomato);
     border-radius: 10px;
     color: blanchedalmond;
     font-weight: 600;
